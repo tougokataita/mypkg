@@ -1,5 +1,4 @@
 # talker ・　listenerコマンド
-![test](http://github.com/tougokataita/mypkg/action/workflows/test.yml/badge.svg)
 ## 機能説明
 * パブリッシャを持つtalkerノードが/countupというトピックを介してリスナーを持つlistenerノードへメッセージを受け渡しています。
 * メッセージは、listenerノードへ受け渡すたびに1ずつ足されていくInt16型の整数を0.5秒間隔で受け渡しています。
