@@ -1,6 +1,10 @@
 # talker ・　listenerコマンド
 ## 機能説明
-* パブリッシャを持つ/talkerノードが/countupというトピックを介してリスナーを持つ/listenerノードへメッセージを受け渡しています。
+* パブリッシャを持つtalkerノードが/countupというトピックを介してリスナーを持つlistenerノードへメッセージを受け渡しています。
+* メッセージは、listenerノードへ受け渡すたびに,1ずつ足されていくInt16型の整数を0.5秒間隔で受け渡しています。
+* トピック: 
+
+
 ## インストール
 * インストールをする前に下記のコマンドでホームディレクトリにワークスペースを作成してください
 ```
@@ -14,7 +18,7 @@ git clone git@github.com:tougokataita/mypkg.git
 ## 実行方法
 * 実行方法1  :端末を2つ使用します。
 * 端末1
-  ros2_ws ディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
+  ros2_ws ディレクトリに移動後、下記のコマンドでビルド、実行することが出来ます。
 ```
 colcon build
 ros2 run mypkg talker
@@ -45,7 +49,7 @@ ros2 run mypkg listener
 ```
 
 * 実行方法2
-* ros2_wsディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
+* ros2_wsディレクトリに移動後、下記のコマンドでビルド、実行することが出来ます。
 ```
 colcon build
 ros2 launch mypkg talk_listen.launch.py
