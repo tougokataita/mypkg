@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2023 Tougo Kataita 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 import os
 from glob import glob
 from setuptools import setup
