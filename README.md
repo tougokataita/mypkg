@@ -28,7 +28,7 @@ ros2 run mypkg talker
 ```
 ros2 run mypkg listener
 ```
-####実行例
+**実行例**
 * 端末1  (実行後、端末1には何も表示されません)
 ```
 ros2 run mypkg talker
@@ -54,7 +54,7 @@ ros2 run mypkg listener
 colcon build
 ros2 launch mypkg talk_listen.launch.py
 ```
-#### 実行例
+**実行例**
 ```
 ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/abcd/.ros/log/2023-12-28-01-17-51-025393-taruto105-32471
