@@ -44,12 +44,34 @@ ros2 run mypkg listener
 ```
 
 * 実行方法2
-
+* ros2_wsディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
+```
+ros2 launch mypkg talk_listen.launch.py
+```
+* 実行例
+```
+ros2 launch mypkg talk_listen.launch.py
+[INFO] [launch]: All log files can be found below /home/abcd/.ros/log/2023-12-28-01-17-51-025393-taruto105-32471
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [32473]
+[INFO] [listener-2]: process started with pid [32475]
+[listener-2] [INFO] [1703693872.213204045] [listener]: Listen: 0
+[listener-2] [INFO] [1703693872.700736138] [listener]: Listen: 1
+[listener-2] [INFO] [1703693873.200199349] [listener]: Listen: 2
+[listener-2] [INFO] [1703693873.700284806] [listener]: Listen: 3
+[listener-2] [INFO] [1703693874.200831414] [listener]: Listen: 4
+[listener-2] [INFO] [1703693874.700822301] [listener]: Listen: 5
+[listener-2] [INFO] [1703693875.200776849] [listener]: Listen: 6
+[listener-2] [INFO] [1703693875.699988081] [listener]: Listen: 7
+[listener-2] [INFO] [1703693876.200870426] [listener]: Listen: 8
+[listener-2] [INFO] [1703693876.700249228] [listener]: Listen: 9
+[listener-2] [INFO] [1703693877.201117346] [listener]: Listen: 10
+```
 
 ## テスト環境
-* Ubuntu20.04
+* Ubuntu22.04
 * Python
-* テスト済みバージョン: 3.7 ~ 3.10
+* ROS2 Humble
 ## 著作権
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再配布および使用が許可されます。
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
