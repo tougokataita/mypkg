@@ -1,4 +1,4 @@
-# talker ・　listenerコマンド
+# ROS 2 トピック通信 : talker・listener
 ## 機能説明
 * パブリッシャを持つtalkerノードが/countupというトピックを介してリスナーを持つlistenerノードへメッセージを受け渡しています。
 * メッセージは、listenerノードへ受け渡すたびに1ずつ足されていくInt16型の整数を0.5秒間隔で受け渡しています。
