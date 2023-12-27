@@ -26,17 +26,6 @@ ros2 run mypkg listener
 * 実行例
 * 端末1
 ```
-colcon build
-
-Starting >>> mypkg
-Starting >>> person_msgs
-Finished <<< person_msgs [1.25s]
-Finished <<< mypkg [1.47s]
-
-Summary: 2 packages finished [2.96s]
-```
-
-```
 ros2 run mypkg talker
 
 ```
