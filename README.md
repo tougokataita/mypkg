@@ -11,9 +11,9 @@ git clone git@github.com:tougokataita/mypkg.git
 
 ## 実行方法
 * 実行方法1
-  実行方法1では端末を2つ使用します。
+  :端末を2つ使用します。
 * 端末1
-  ros2_ws ディレクトリに移動し、下記のコマンドでビルド、実行することができます。
+  ros2_ws ディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
 ```
 colcon build
 ros2 run mypkg talker
