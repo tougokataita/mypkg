@@ -10,26 +10,25 @@ git clone git@github.com:tougokataita/mypkg.git
 ```
 
 ## 実行方法
-* 実行方法1
-  :端末を2つ使用します。
- * 端末1
+* 実行方法1  :端末を2つ使用します。
+* 端末1
   ros2_ws ディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
 ```
 colcon build
 ros2 run mypkg talker
 ```
- * 端末2 
+* 端末2 
   下記のコマンドで実行することが出来ます。
 ```
 ros2 run mypkg listener
 ```
- * 実行例
- * 端末1  (端末1には何も表示されません)
+* 実行例
+* 端末1  (端末1には何も表示されません)
 ```
 ros2 run mypkg talker
 
 ```
- * 端末2
+* 端末2
 ```
 ros2 run mypkg listener
 [INFO] [1703692973.128299537] [listener]: Listen: 20
@@ -44,12 +43,12 @@ ros2 run mypkg listener
 ```
 
 * 実行方法2
- * ros2_wsディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
+* ros2_wsディレクトリに移動し、下記のコマンドでビルド、実行することが出来ます。
 ```
 colcon build
 ros2 launch mypkg talk_listen.launch.py
 ```
- * 実行例
+* 実行例
 ```
 ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/abcd/.ros/log/2023-12-28-01-17-51-025393-taruto105-32471
