@@ -24,12 +24,11 @@ ros2 run mypkg talker
 ros2 run mypkg listener
 ```
 * 実行例
-* 端末1
+* 端末1  (端末1には何も表示されません)
 ```
 ros2 run mypkg talker
 
 ```
-* 端末1には何も表示されません
 * 端末2
 ```
 ros2 run mypkg listener
