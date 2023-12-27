@@ -25,7 +25,7 @@ colcon build
 source ~/.bashrc
 ros2 run mypkg talker
 ```
-* 端末2 : 下記のコマンドで実行することが出来ます。
+* 端末2 : 下記のコマンドでビルド、実行することが出来ます。
 ```
 colcon build
 source ~/.bashrc
