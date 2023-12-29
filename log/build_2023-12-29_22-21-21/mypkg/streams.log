@@ -1,0 +1,42 @@
+[1.312s] Invoking command in '/home/abcd/ros2_ws/src/mypkg': PYTHONPATH=/home/abcd/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/abcd/ros2_ws/src/mypkg/build/mypkg/build install --record /home/abcd/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.570s] running egg_info
+[1.572s] creating build/mypkg/mypkg.egg-info
+[1.572s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.573s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.574s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.574s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.575s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.580s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.633s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.635s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.636s] running build
+[1.636s] running build_py
+[1.636s] creating /home/abcd/ros2_ws/src/mypkg/build/mypkg/build
+[1.637s] creating /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib
+[1.637s] creating /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.638s] copying mypkg/talker.py -> /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.639s] copying mypkg/listener.py -> /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.639s] copying mypkg/__init__.py -> /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.640s] running install
+[1.642s] running install_lib
+[1.644s] creating /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.644s] copying /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.645s] copying /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.645s] copying /home/abcd/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.646s] byte-compiling /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.649s] byte-compiling /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.650s] byte-compiling /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.650s] running install_data
+[1.651s] creating /home/abcd/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[1.652s] creating /home/abcd/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[1.653s] creating /home/abcd/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.653s] copying resource/mypkg -> /home/abcd/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.654s] copying package.xml -> /home/abcd/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.654s] copying launch/talk_listen.launch.py -> /home/abcd/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.655s] running install_egg_info
+[1.658s] Copying build/mypkg/mypkg.egg-info to /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.661s] running install_scripts
+[1.684s] Installing listener script to /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.684s] Installing talker script to /home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.685s] writing list of installed files to '/home/abcd/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.717s] Invoked command in '/home/abcd/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/abcd/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/abcd/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/abcd/ros2_ws/src/mypkg/build/mypkg/build install --record /home/abcd/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

@@ -1,8 +1,7 @@
 # ROS 2 トピック通信 : talker・listener
 ## 機能説明
 * パブリッシャを持つtalkerノードが/countupというトピックを介してリスナーを持つlistenerノードへメッセージを受け渡しています。
-* メッセージは、listenerノードへ受け渡すたびに1ずつ足されていくInt16型の整数を0.5秒間隔で受け渡しています。
-* トピック : 異なるノード同士がメッセージを送受信するための通信方法です。1対1だけではなく1対多での送受信が可能であり、リスナーは、パブリッシャが指定したトピック名と同じトピック名を指定することで特定のメッセージを受信することが出来ます。
+* /countupトピックには、0.5秒ごとに1ずつ足されていくInt16型の整数がパブリッシュされます。
 
 
 ## インストール
@@ -12,23 +11,24 @@ mkdir -p ros2_ws/src
 ```
 * ワークスペースを作成した後、src ディレクトリに移動し、以下のコマンドを使用して mypkg リポジトリをローカルのディレクトリにクローンします。
 ```
-git clone git@github.com:tougokataita/mypkg.git
+git clone https://github.com/tougokataita/mypkg.git
 ```
 
 ## 実行方法
+* 初めて実行する場合、下記のコマンドでビルドをしてから実行してください。
+```
+colcon build
+source ~/.bashrc
+```
 ### 実行方法1
   
 端末を2つ使用します。
-* 端末1 : ros2_ws ディレクトリに移動後、下記のコマンドでビルド、実行することが出来ます。
+* 端末1 : 下記のコマンドで実行することが出来ます。
 ```
-colcon build
-source ~/.bashrc
 ros2 run mypkg talker
 ```
-* 端末2 : 下記のコマンドでビルド、実行することが出来ます。
+* 端末2 : 下記のコマンドで実行することが出来ます。
 ```
-colcon build
-source ~/.bashrc
 ros2 run mypkg listener
 ```
 **実行例**
@@ -52,9 +52,8 @@ ros2 run mypkg listener
 ```
 
 ### 実行方法2
-* ros2_wsディレクトリに移動後、下記のコマンドでビルド、実行することが出来ます。
+* 下記のコマンドで実行することが出来ます。
 ```
-colcon build
 ros2 launch mypkg talk_listen.launch.py
 ```
 **実行例**
