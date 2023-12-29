@@ -17,7 +17,7 @@ git clone https://github.com/tougokataita/mypkg.git
 ## 実行方法
 * 初めて実行する場合、下記のコマンドでビルドをしてから実行してください。
 ```
-colcon build
+(cd ~/ros2_ws && colcon build)
 source ~/.bashrc
 ```
 ### 実行方法1
