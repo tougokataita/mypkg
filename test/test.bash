@@ -7,7 +7,7 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-timeout 5 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
+timeout 2 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
 grep 'age: 44'
